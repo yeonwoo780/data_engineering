@@ -33,7 +33,7 @@ def fig(mean, var):
 def normal(m_v):
     m , v = m_v.split('_')
     m , v = int(m) ,int(v)
-    return render_template("random_gen.html", mean=m, var=v, width=100, height=100)
+    return render_template("random_gen.html", mean=m, var=v, width=300, height=300)
     
 
 if __name__ == '__main__':
